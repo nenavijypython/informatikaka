@@ -34,4 +34,4 @@ while True:
         break
     except ValueError:
         print('Ошибка ввода! введите заново.')
-#проверка на коммит часть 2
+#вы лох
