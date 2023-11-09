@@ -6,7 +6,7 @@ while 1:
     count = 0
     for i in range(len(a)):
         for j in range(len(a[i])):
-            if a[i][j:j + len(b)] == b:
+            if a[i][j:j + len(b)] == b:#сравнение подстроки с образцом поиска
                 count += 1
     if count == 0:
             print(f'Количество вхождений "{b}" в исходной строке = 0. Введите строку и образец поиска заново.')
